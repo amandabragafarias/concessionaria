@@ -1,0 +1,196 @@
+body{
+ background-image: url(img/car.jpg);
+
+}
+.conteudo {
+background-image: url(img/.png);
+	   
+    height: 357px;
+    width: 500px;
+   border-radius: 15px;
+    margin-top: 40px;
+    margin-left:440px;
+
+	}
+
+  .adicionar {
+    position:relative;
+     background-image: url(img/add.png);
+
+   height: 36px;
+    width: 150px;
+   
+    margin-top: 10px;
+    margin-bottom: 18px;
+    margin-left:360px;
+  
+  }
+  .adicionar:hover{
+    top:-2px;
+  }
+  .buscar {
+    position:relative;
+     background-image: url(img/busca.png);
+height: 36px;
+    width: 150px;
+   border-radius: 15px;
+    margin-top: -51px;
+    margin-left:520px;
+
+  }
+  .buscar:hover{
+    top:-2px;
+  }
+  .deletar {
+    position:relative;
+     background-image: url(img/delete.png);
+height: 32px;
+    width: 150px;
+   
+    margin-top: -36px;
+    margin-left:685px;
+
+  }
+  .deletar:hover{
+    top:-2px;
+  }
+
+  .atualizar {
+    position:relative;
+     background-image: url(img/att.png);
+
+    height: 36px;
+    width: 150px;
+   border-radius: 15px;
+    margin-top: -35px;
+    margin-left:860px;
+
+  }
+  .atualizar:hover{
+    top:-2px;
+  }
+  .teste{
+    width:100px;
+    border-radius: 15px;
+    color:transparent;
+  }  
+
+  
+	INPUT.MeuInput{
+   width: 300px;
+   height: 100px;
+     border-radius: 10px;
+
+	}
+INPUT.m{
+   width: 300px;
+   height: 50px;
+     border-radius: 10px;
+
+  }
+INPUT.todos{
+   border-radius: 10px;
+
+  }
+  a{
+    font-size: 25px;
+  }
+  a:link 
+{ 
+ text-decoration:none; 
+} 
+.topico{
+
+  font-size: 36px;
+  color: #D3D3D3;
+  font-family: arial black;
+  margin-top: 10px;
+  margin-left: 580px;
+}
+.caixa {
+background-image: url(img/e.png);
+     
+    height: 1500px;
+    width: 700px;
+   border-radius: 15px;
+    margin-top: 5px;
+    margin-left:340px;
+
+  }
+.titulos{
+  font-size: 16px;
+  font-family: arial black;
+  color: black;
+
+}
+
+.nome{
+  font-family: arial;
+  font-size: 15px;
+  color: white;
+  margin-top: 90px;
+}
+
+input[type=text], select {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 400px;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.eh {
+    margin-left: 500px;
+    margin-top: 40px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+.slider{
+  background-image: url(img/eh.jpg);
+}
+div#slider { overflow: hidden; 
+background-image: url(img/eh.jpg); }
+div#slider figure img { width: 20%;  height: 80%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 499%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}

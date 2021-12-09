@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Atualizar</title>
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+    </head>
+    <style>
+input[type=text], select {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 400px;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.eh {
+    margin-left: 500px;
+    margin-top: 40px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+</style>
+    <body>
+        <div class="Topico">Atualizar Carro </div>
+
+       
+            <a href="./index.html"> <div class="adicionar"> </div></a>
+       
+
+        
+              <a href="./buscar.html"><div class="buscar"></div></a>
+        
+
+       
+             <a href="./deletar.html"><div class="deletar"></div></a>
+        
+
+       
+            <a href="./atualizar.html"> <div class="atualizar"> </div></a>
+       
+        <div class="eh">
+     <form action="atualizar.php" method="get" id="formulario">
+    Código</br>
+    <input type="text" name="codigo" placeholder="Código do carro..."/>
+    <!--<input type="text" name="codigo" placeholder="Codigo do carro.."></br>-->
+ Novo Código</br>
+    <input type="text" name="novocodigo" placeholder="Novo código do carro..."/>
+
+    Novo Modelo</br>
+    <input type="text" name="novomodelo" placeholder="Modelo do carro..."/>
+
+     Novo Preço </br>
+    <input type="text" name="novopreco" placeholder="Preço do carro..."/></br>
+
+    Novo Ano     </br>
+    <input type="text" name="novoano" placeholder="Ano de lançamento do carro..."/></br>
+
+    Fabricante</br>
+  
+    <select  name="fabricante">
+      <option value="toyota">Toyota</option>
+      <option value="ferrari">Ferrari</option>
+      <option value="fiat">Fiat</option>
+      <option value="lamborghini">Lamborghini</option>
+      <option value="suzuki">Suzuki</option>
+      <option value="honda">Honda</option>
+      <option value="renault">Renault</option>
+      <option value="honda">Honda</option>
+      <option value="citroen">Citroen</option>
+      <option value="hyundai">Hyundai</option>
+      <option value="peugeot">Peugeot</option>
+      <option value="mazda">Mazda</option>
+      <option value="nissan">Nissan</option>
+      <option value="subaru">Suburu</option>
+      <option value="renalt">Renalt</option>
+      <option value="seat">Seat</option>
+      <option value="audi">Audi</option>
+    </select>
+    </br>
+
+  <input type="submit" value="Salvar"/>
+        </form>
+</div>
+      
+ <div class="nome">By: Amanda Braga,Fabiola Costa, Vitoria Iris e Clara Mendonça</div>
+    </body>
+</html>
